@@ -1,0 +1,3 @@
+My solution is in requests.js in the retrieve_ids function. It will work with any base url where the text 'id' is put in place of the spot where the actual ids will go.  
+
+I tested the function with the spotify api. But it should theoretically work for the Eluvio api once it is back up. If you would like to quickly verify my code using my own test, you can grab a temporary spotify authentication token at https://developer.spotify.com/console/get-artist/?id= and put it as the first command line argument i.e "node requests.js Bearer BQAljp...". The output json will be printed which is a map from artist id to the api response. 
